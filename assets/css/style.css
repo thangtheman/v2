@@ -1,0 +1,364 @@
+.container{
+    max-width: 1000px;
+}
+	.logo img { margin:25px 0 0;}
+
+.uppercase {
+    padding-top: 23px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 30px;
+}
+.uppercase span {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+.hero-top{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size:cover;
+    background-color: #EEEEEE;
+    height: 500px;
+	position:relative;
+}
+.hero-top:after {
+	content:'';
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+50,000000+100&0+50,0.5+100 */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+.navbar-inner { text-align:center;}
+	footer img {
+		vertical-align:baseline;
+		margin:-3px 0 0 5px;
+		}
+h2.red { margin:30px 0 20px 0;}
+.hero-unit {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+	position:absolute;
+	left:50%;
+	top:55%;
+	transform:translateX(-50%) translateY(-50%);
+	-webkit-transform:translateX(-50%) translateY(-50%);
+	-moz-transform:translateX(-50%) translateY(-50%);
+	width:100%;
+}
+.video-placeholder {
+    position:relative;
+}
+.video-placeholder img.playButton {
+    left:50%;
+    position:absolute;
+    top:50%;
+    margin-left:-58px;
+    margin-top:-58px
+}
+.video-list-view img {
+}
+.artcle-video-width {
+}
+.video-placeholder {
+    position:relative;
+}
+.video-placeholder img.playButton {
+    left:50%;
+    position:absolute;
+    top:50%;
+    margin-left:-58px;
+    margin-top:-58px
+}
+.hero-unit h1 {
+	padding:0;
+    margin: 20px 0 25px;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: inherit;
+	font-weight:900;
+}
+.hero-unit li {
+    line-height: 30px;
+}
+.capital{
+    text-transform: capitalize;
+
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.bottom-yellow{
+    background-color: #ebebeb;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 30px;
+    margin-top: -20px
+}
+.bottom-blue{
+    background-color: #ebebeb;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 30px;
+    margin-top: -20px
+}
+.bottom-green{
+    border: 2px #eeeeee solid;
+    align-items: center;
+
+}
+.thumb{
+}
+.in{
+    padding-left: 10px;
+}
+.col-md-4 {
+    padding-top: 10px;
+}
+.info {
+    padding: 10px 0px 0px 0px;
+
+    font-weight: 300;
+    font-size: 14px;
+}
+.button1 {
+        background-color: rgba(0,0,0,0.0);
+		text-shadow: 0 0 5px rgba(0,0,0,0.8);
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+	text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 32px;
+}
+.button2 {
+    text-transform: uppercase;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #555555;
+    padding: 5px 10px;
+    float: left;
+}
+.cool{
+    font-size: 28px;
+	text-shadow: 0 0 5px rgba(0,0,0,0.8);
+	padding:0 0 5px;
+	margin:0;
+	position:relative;
+	display:inline;
+}
+/*
+.cool:after{
+    content:'';
+	border-bottom:1px solid #fff;
+	width:50%;
+	left:50%;
+	bottom:0;
+	transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	position:absolute;
+}
+*/
+@media screen and (max-width: 420px) {
+    .uppercase{
+        font-size: 18px;
+        text-align: center;
+    }
+    .info {
+        padding: 0 0 0 0px;
+        margin-top: -5px;
+    }
+    .hero-unit{
+        top:42%;
+    }
+    .hero-top{
+        height: 300px;
+    }
+    .cool{
+        display: none;
+    }
+    .button1 {
+        text-transform: uppercase;
+        color: white;
+        border: 1px solid white;
+        padding: 10px 15px;
+        text-align: center;
+	    /*margin-top: 60px;*/
+    }
+    .hero-unit h1  {
+        font-size: 36px;
+        padding-top: 80px;
+		text-shadow: 0 0 5px rgba(0,0,0,0.8);
+    }
+    .logo{
+        align:middle;
+        margin-top: 20px;
+    }
+    .h1here {
+        padding-bottom: 30px;
+    }
+    .red {
+        font-size: 24px;
+    }
+}
+.logo{
+    padding-top: 10px;
+}
+@media screen and (min-width: 421px) and (max-width: 768px) {
+    .uppercase{
+        font-size: 18px;
+        text-align: center;
+    }
+    .info {
+        padding: 0 0 0 0px;
+        margin-top: -5px;
+    }
+    .hero-unit{
+        top:38%;
+    }
+    .hero-top{
+        height: 300px;
+    }
+    .cool{
+        display: none;
+    }
+    .button1 {
+        text-transform: uppercase;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 10px 15px;
+        text-align: center;
+        /*margin-top: 60px;*/
+    }
+    .hero-unit h1  {
+        font-size: 35px;
+        padding-top: 100px;
+    }
+    .logo{
+        align:middle;
+        padding-top: 10px;
+    }
+    .red {
+        font-size: 24px;
+    }
+
+}
+@media screen and (max-width: 979px) {
+    .hero-top{
+    }
+    .hero-unit{
+        padding-top: 10px;
+    }
+}
+#footerBar {
+    height: 60px;
+    background: #000000;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+footer{
+    position: fixed;
+    bottom:0;
+}
+.footer{
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+.courses .col-sm-6 { margin-bottom:40px;}
+.course{
+    float: left;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+.course1{
+    float: left;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+body{
+ font-family: Roboto;
+ font-weight: 300;
+}
+.room {
+    padding-bottom: 50px;
+}
+
+.h1here{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.underline{
+    border-bottom: solid 2px white;
+}
+.spacer{
+    padding: 40px 0;
+}
+.green{
+    background-color: transparent;
+}
+
+.lightbox{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+	display:none;
+	z-index:1000000;
+}
+
+.lightbox .wrapper{
+		position:absolute;
+		min-width:300px;
+		max-width:600px;
+		max-height:90%;
+		height:auto;
+		top:50%;
+		left:50%;
+		transform:translateX(-50%) translateY(-50%);
+		 background:#fff;
+		 padding:20px;
+		 border-radius:5px;
+		 overflow-y:scroll;
+	}
+
+.lightbox .wrapper h3{
+margin-top:0;
+}
+
+.lightbox .wrapper label{ display:block; margin-top:5px;}
+
+
+.lightbox .wrapper input[type=text] { width:100%; border:1px solid #ccc; height:32px;}
+.lightbox .wrapper input[type=email] { width:100%; border:1px solid #ccc; height:32px;}
+.lightbox .wrapper input[type=tel] { width:100%; border:1px solid #ccc; height:32px;}
+.lightbox .wrapper input[type=number] { width:100%; border:1px solid #ccc; height:32px;}
+
+.lightbox .wrapper textarea { width:100%; border:1px solid #ccc; height:100px;}
+
+.lightbox .wrapper input[type=submit] {
+
+    background-color: #ffba00;
+    text-transform: uppercase;
+    color: #333;
+    border: 1px solid white;
+    padding: 5px 32px;
+	margin-top:5px;
+	font-weight:bold;
+	}
+.lightbox .close { float:right; font-size:13px; font-weight:normal; text-shadow:none; line-height:28px; opacity:8;}
